@@ -1,5 +1,5 @@
 import React from 'react';
-import Spa from './components/Spa'
+import Spa from '@components/Spa'
 
 const App = () => {
     return (

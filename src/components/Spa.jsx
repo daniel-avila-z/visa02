@@ -11,33 +11,21 @@ import facebookLOGO from '@images/facebookLOGO.svg';
 import gmailLOGO from '@images/gmailLOGO.svg';
 import whatsappLogo from '@images/whatsappLogo.svg'
 
-
+import BarNav from '@components/BarNav.jsx'
 const Spa = () => {
     return (
         <div>
             <header className="header">
-                <nav className="nav__header">
-                <div className="container nav__container">
-                    <div className="logo">
-                    <h2 className="logo_name">Global Consul Management<span className="point">.</span></h2>
-                    </div>
-                    <div className="links">
-                    <a href="header" className="link">Inicio</a>
-                    <a href="main" className="link">¿Que hacemos?</a>
-                    <a href="" className="link">Preguntas Frecuentes</a>
-                    <a href="" className="link ">Contacto</a>
-                    </div>
-                </div>
-                </nav>
+                <BarNav/>
                 <section className="container header__main">
-                <div className="header__textos">
-                    <h1 className="title">La mejor Asesoria <span className="title__active">Garantizada</span></h1>
-                    <p className="copy">Nos aseguramos en ayudarte a conseguir la <span className="visa">Visa</span> que tanto <span className="copy__active ">deseas</span></p>
-                    <a id="boton" href="#" target="_blank">
-                    Contactanos<span className="espacioBlanco">...</span><img className="logito__whatsapp" src={whatsappLogoSinBorde} alt="whatsappLogoSinBorde" />
-                    </a>
-                </div> 
-                <img src={mockup} className="mockup" />
+                    <div className="header__textos">
+                        <h1 className="title">La mejor Asesoria <span className="title__active">Garantizada</span></h1>
+                            <p className="copy">Nos aseguramos en ayudarte a conseguir la <span className="visa">Visa</span> que tanto <span className="copy__active ">deseas</span></p>
+                            <a id="boton" href="#" target="_blank">
+                            Contactanos<span className="espacioBlanco">...</span><img className="logito__whatsapp" src={whatsappLogoSinBorde} alt="whatsappLogoSinBorde" />
+                            </a>
+                    </div> 
+                    <img src={mockup} className="mockup" />
                 </section>
             </header>
             {/* LO QUE HACEMOS */}

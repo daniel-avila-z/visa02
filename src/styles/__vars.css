@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'PTSans';
+	src: url('@fonts/PTSans-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+
+}
+:root{
+    --blue1: #0066af;
+    --blue2: rgb(0, 5, 31) ;
+    --black1: #000000;
+    --black2: #18191a;
+    --green1: rgb(0, 221, 18);
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+    --green2: rgb(77, 226, 72);
+    --white: #fff;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+	font-family: 'PTSans', Arial, Helvetica, sans-serif;
+}

@@ -95,7 +95,7 @@ nav #nav-toggle {
     /* height: 70px; */
     /* margin: 0px; */
     padding: 0px;
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    /* border-bottom: 1px solid rgba(255,255,255, 0.1); */
     right: 0px;
     left: 0px;
     z-index: 10;
@@ -460,22 +460,30 @@ details[open] summary::before{
 		width: auto;
 		justify-content: center;
 	}
-	nav .links { float: none;
-        float: none;
-    position: fixed;
-    /* z-index: 9; */
-    /* left: 0; */
-    /* right: 0; */
-    /* top: 100px; */
-    bottom: 83%;
-    /* width: auto; */
-    /* height: auto; */
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* background-color: rgba(0,0,0,.8); */
-    /* overflow: hidden; */
-    /* box-sizing: border-box; */
-    /* /* transition: all .5s ease-in-out; */
+	nav .links { 
+        margin-right: 60px;
+        margin-left: 60px;
+        border-right-width: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        left: 50.438;
+
+        background-color: rbga(18,10,40);
+        /* float: none; */
+        /* float: none; */
+        position: fixed;
+        z-index: 9;
+        /* left: 0; */
+        /* right: 0; */
+        top: 40px;
+        /* bottom: 130px; */
+        /* width: auto; */
+        /* height: auto; */
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(0 82 144 / 32%);
+        /* overflow: hidden;
+        /* /* box-sizing: border-box; */
     }
     nav .links a {
         font-size: 20px;
@@ -629,7 +637,12 @@ details[open] summary::before{
 		width: auto;
 		justify-content: center;
 	}
+
+    div .links{
+        top: 40px;
+    }
 	nav .links {
+            
 		    /* float: none; */
             position: fixed;
             /* z-index: 9; */
@@ -676,12 +689,12 @@ details[open] summary::before{
 
 
     .header__main {
-        flex-direction: row;
-        justify-content: flex-end;
-        min-height: 555px;
-        /* height: auto; */
-        padding: 28px 0;
-        padding-top: 70px;
+        height: calc(88vh - 26px);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
     }
 
     .visa {
@@ -695,7 +708,7 @@ details[open] summary::before{
     }
 
     .mockup {
-        width: 45%;
+        width: 70%;
         margin-bottom: 0px;
         margin-top: 10%;
     }
@@ -732,6 +745,18 @@ details[open] summary::before{
         box-shadow: 0 0 6px var(--color_shadow);
         text-align: center;
     }
+    .card__title {
+        font-size: 30px;
+        color: var(--white);
+        margin-bottom: 20px;
+    }
+    .card__copy {
+        color: var(--black1);
+        margin-bottom: 0px;
+        background-color: rgb(0 249 104);
+        font-size: 19px;
+        border-radius: 10px;
+    }
 
     .subtitle {
         font-size: 24px;
@@ -744,6 +769,13 @@ details[open] summary::before{
         font-size: 20px;
     }
 
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
     .contactoSub {
         color: rgb(0 5 31);
         font-size: 35px;
@@ -753,7 +785,13 @@ details[open] summary::before{
         color: rgb(0 5 31);
         font-size: 16px;
         line-height: 32px;
-        /* margin-bottom: 60px; */
+        margin-bottom: 20px;
+    }
+
+    .gif {
+        width: 75%;
+        height: 80%;
+        border-radius: 5px;
     }
 
 }
