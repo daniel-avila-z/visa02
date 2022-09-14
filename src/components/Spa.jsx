@@ -20,7 +20,7 @@ const Spa = () => {
                 <section className="container header__main">
                     <div className="header__textos">
                         <h1 className="title">La mejor Asesoría <span className="title__active">Garantizada</span></h1>
-                            <p className="copy">Nos aseguramos en ayudarte a conseguir la <span className="visa">Visa</span> que tanto <span className="copy__active ">deseas</span></p>
+                            <p className="copy">Nos aseguramos en ayudarte a conseguir la <span className="visa">Visa</span> que tanto <span className="copy__active ">deseas</span>.</p>
                             <a id="boton" href="#" target="_blank">
                             Contactanos<span className="espacioBlanco">...</span><img className="logito__whatsapp" src={whatsappLogoSinBorde} alt="whatsappLogoSinBorde" />
                             </a>
@@ -33,7 +33,7 @@ const Spa = () => {
                 <section className="hacemos">
                 <div className="container"> 
                     <h2 className="subtitle"><span className="point">¿</span>Qué hacemos<span className="point">?</span></h2>
-                    <p className="copy__section">Te ofrecemos los servicios perfectos para que logres obtener tu <span className="visa">Visa</span>
+                    <p className="copy__section">Te ofrecemos los servicios perfectos para que logres obtener tu <span className="visa">Visa</span>.
                     </p><article className="container-cards">
                     <div className="card">
                         <img src={reloj2} alt="" className="card__img" />
