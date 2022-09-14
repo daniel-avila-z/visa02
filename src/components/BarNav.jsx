@@ -17,7 +17,7 @@ const BarNav = () => {
     return (
     <header className="Cabecera">
         <div className="logo">
-             <h2 className="logo_name">Global Consul Management<span className="point">.</span></h2>
+             <h2 className="logo_name">Global Consult Management<span className="point">.</span></h2>
         </div>
 
         <div
@@ -29,7 +29,7 @@ const BarNav = () => {
         <nav className={ `Cabecera-nav ${ menu ? 'isActive' : '' }` }>
             <ul className="Cabecera-ul">
                 <li className="Cabecera-li"><a href="header" className="link">Inicio</a></li>
-                <li className="Cabecera-li"><a href="main" className="link">¿Que hacemos?</a></li>
+                <li className="Cabecera-li"><a href="main" className="link">¿Qué hacemos?</a></li>
                 <li className="Cabecera-li"><a href="" className="link">Preguntas Frecuentes</a></li>
                 <li className="Cabecera-li"><a href="" className="link ">Contacto</a></li>
             </ul>

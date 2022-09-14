@@ -19,7 +19,7 @@ const Spa = () => {
                 <BarNav/>
                 <section className="container header__main">
                     <div className="header__textos">
-                        <h1 className="title">La mejor Asesoria <span className="title__active">Garantizada</span></h1>
+                        <h1 className="title">La mejor Asesoría <span className="title__active">Garantizada</span></h1>
                             <p className="copy">Nos aseguramos en ayudarte a conseguir la <span className="visa">Visa</span> que tanto <span className="copy__active ">deseas</span></p>
                             <a id="boton" href="#" target="_blank">
                             Contactanos<span className="espacioBlanco">...</span><img className="logito__whatsapp" src={whatsappLogoSinBorde} alt="whatsappLogoSinBorde" />
@@ -46,14 +46,14 @@ const Spa = () => {
                         <img src={billeteraAhorro} alt="" className="card__img" />
                         <div className="card__text">
                         <h3 className="card__title">Sin repeticiones costosas</h3>
-                        <p className="card__copy">No te arriesges a que te rechazen, con nosotros sabras que hacer</p>
+                        <p className="card__copy">No te arriesgues a que te rechacen, con nosotros sabrás qué hacer</p>
                         </div>
                     </div>
                     <div className="card">
                         <img src={relajate} alt="" className="card__img" />
                         <div className="card__text">
                         <h3 className="card__title">Sin preocupaciones</h3>
-                        <p className="card__copy">Descansa y dejanoslo todo a nosotros, para que no estes despiert@ cazando la cita</p>
+                        <p className="card__copy">Descansa y dejánoslo todo a nosotros, para que no estés despiert@ cazando la cita</p>
                         </div>
                     </div>
                     </article>
