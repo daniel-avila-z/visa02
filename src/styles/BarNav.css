@@ -26,10 +26,17 @@
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 .Cabecera-li{
     margin: 0 .5em;
 }
+
+.logo_name{
+    margin-bottom: 10px;
+}
+
+
 @media screen and (max-width:480px){
 
     .Cabecera-button{

@@ -145,7 +145,7 @@ nav #nav-toggle {
 }
 
 .header__main{
-    height: calc(110vh - 0px);
+    height: calc(80vh - 0px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,7 +172,7 @@ nav #nav-toggle {
 .copy{
     font-size: 27px;
  
-    margin: 130px 0px;
+    margin: 100px 0px;
     color: var(--white);
 
 }
