@@ -3,9 +3,7 @@ import Spa from '@components/Spa'
 
 const App = () => {
     return (
-        <div>
-            <Spa />
-        </div>
+        <Spa />
     );
 };
 
