@@ -4,7 +4,7 @@ import '@styles/main.css';
 const Spa = () => {
     return (
             <header className="header">
-            <div className="container footer__caption">
+            <div className="container">
                 <h2 className="subtitle">
                     Preguntas Frecuentes
                 </h2>
