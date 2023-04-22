@@ -3,7 +3,6 @@ import '@styles/main.css';
 
 const Spa = () => {
     return (
-        <div>
             <header className="header">
             <div className="container footer__caption">
                 <h2 className="subtitle">
@@ -35,7 +34,6 @@ const Spa = () => {
                 </details>
                 </div>
             </header>
-        </div>
     );
 };
 

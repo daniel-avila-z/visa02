@@ -85,7 +85,7 @@ nav #nav-toggle {
 
 .header{
     width: 100%;
-    min-height: 60vh;
+    min-height: 100vh;
     background: linear-gradient(180deg, var(--blue1) 0%, var(--blue2) 100%);
 }
 
